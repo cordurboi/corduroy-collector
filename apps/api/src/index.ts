@@ -18,6 +18,7 @@ app.use(
       /^https:\/\/.*\.trycloudflare\.com$/,
       /^https:\/\/.*\.ngrok\.io$/,
       /^https:\/\/.*\.ngrok\.app$/,
+      /^https:\/\/.*\.vercel\.app$/,
     ],
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
