@@ -1,6 +1,10 @@
 ## Project Overview & Objectives
 
+### Vision
+
 Corduroy Collector offers a new way for fans to engage with art, while also reimagining the onboarding flow and purpose of NFTs within the context of the creative industries.
+
+### User journey
 
 Users can log into the app with email; behind the scenes the app creates a wallet address associated to that account, without the user needing to understand or interact with a traditional crypto wallet. For this use case, we imagine the user at a gallery show. They are instructed by the app to go through the event and look for work by a specific artist.
 
@@ -8,9 +12,13 @@ When they find a work by the artist, they can go to the Collect page, open their
 
 The user can go to their Collection to view the pieces and find additional information on the work. The app also features bonus content. Once the user collects several pieces, they unlock a new piece of art that they can collect from within the app. Collecting this bonus content also mints an NFT to their abstracted wallet. When they navigate back to their Collections page, they can find the final piece of art they collected, along with companion music that is now unlocked for listening.
 
+### Why NFTs in this context
+
 This process creates a much more organic flow and easy UX for distributing NFTs to fans. The biggest barrier to having fans collect NFTs has been the need to create a wallet, fund that wallet, then navigate to a marketplace and purchase an arbitrary NFT with no real meaning. Even just using the word “NFT” has historically blocked mainstream adoption. Within the context of this app, users are simply collecting digital versions of their favourite works in a gamified manner.
 
 The use of NFTs in this context also differs from what most are used to. The user isn’t collecting an NFT as an asset that will be resold. Instead, it is a datapoint that represents the ways in which they have engaged with the artist, serving a similar function to POAPs. Artists can then use the datagraph their fans have generated to find and reward their biggest supporters with additional perks.
+
+### Future extensions
 
 Although this is a simple proof of concept, there are many ways to expand on the functions and use cases of this app. One example would be to have fans use it to collect digital versions of merch they purchase. A fan might go to a band’s merch table and purchase their record with whatever form of payment they desire (e.g. fiat). They can then scan the record to collect the digital version of it, onboarding them onto Polkadot without having to figure out how to purchase cryptocurrencies, send them to the right account, etc.
 
@@ -179,6 +187,8 @@ For each artwork (edition):
   "animation_url": "ipfs://<audio-cid>"
 }
 ```
+
+> Note: The files `edition1.json`, `edition2.json`, `edition3.json`, and `admin-ed2.json` at the repository root are example metadata and admin payloads used during development. You can use them as references when creating or updating your own metadata and when calling the admin endpoint.
 
 Upload:
 - Image files (PNG/JPEG)
