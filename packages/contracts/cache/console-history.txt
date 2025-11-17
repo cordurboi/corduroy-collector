@@ -1,0 +1,27 @@
+EOF
+}  "uri": "ipfs://QmSsoGXTpK7VdSGg9XiitDfENrHpUbgae4CzB5Fqs2L75i"  "id": 4,{
+const C = await ethers.getContractAt("Collectible1155", addr, signer)
+(await signer.getAddress())
+const [signer] = await ethers.getSigners()
+const addr = "0x93f19A80970EDd65A13D42A123FA29884d900Fc7"
+addr = "0x93f19A80970EDd65A13D42A123FA29884d900Fc7" const [signer] = await ethers.getSigners() signer.address // verify this is your deployer/owner address const C = await ethers.getContractAt("Collectible1155", addr, signer)
+await C.setURI(1, "ipfs://Qm.../art-1.json")
+const C = await ethers.getContractAt("Collectible1155", "0x93f19A80970EDd65A13D42A123FA29884d900Fc7")
+pnpm --filter @collectible/contracts exec hardhat console --network moonbase
+await ethers.provider.getBlockNumber()
+.exit
+curl "http://localhost:4000/editions?wallet=0x31938b04fe55de702ee9fae218fe6b1416450b7f&fromBlock=LATEST_MINUS_1000"
+await ethers.provider.getBlockNumber()
+pnpm --filter api add ethers@^6
+(await C.owner())                 // should be your deployer address
+const C = await ethers.getContractAt("Collectible1155", addr)
+const addr = "0x93f19A80970EDd65A13D42A123FA29884d900Fc7"
+.exit
+(await ethers.getSigners())[0].address
+export RELAYER_PRIVATE_KEY="0x2e0d4cf4cc2a1a0c93b7125a0a7e98bd00fe0ee3f4e7b633aa5459ef1491f4e7"
+(await ethers.getSigners())[0].address8bd00fe0aee3f4e7b633a57459ef1491f4e
+(await ethers.getSigners())[0].address00fe0aee3f4e7b633a57459ef1491f4e
+(await ethers.getSigners())[0].addressddressE_KEY="0x2e0d4cf4cc2a1a0c93b7125a0a7e98bd00fe0ee3f4e7b633aa5459ef1491f4e7"
+(await ethers.getSigners())[0].address8bd00fe0aee3f4e7b633a57459ef1491f4e
+(await ethers.getSigners())[0].address00fe0aee3f4e7b633a57459ef1491f4e
+(await ethers.getSigners())[0].addressddresss.getSigners())[0].addressddress

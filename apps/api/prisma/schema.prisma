@@ -1,0 +1,70 @@
+// Prisma schema for Postgres
+// Tables: users, arts, claims, nfts (no events)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  walletAddress String   @unique
+  createdAt     DateTime @default(now())
+
+  claims Claim[]
+  nfts   Nft[]
+}
+
+model Art {
+  id           String   @id // slug or UUID
+  name         String
+  description  String?
+  imageCid     String
+  pin          String?  @unique
+  metadataCid  String?
+  createdAt    DateTime @default(now())
+
+  claims Claim[]
+  nfts   Nft[]
+}
+
+model Claim {
+  id               String   @id @default(cuid())
+  userId           String
+  artId            String
+  status           ClaimStatus @default(pending)
+  qrNonce          String
+  txHash           String? @unique
+  tokenId          String? // hex string
+  claimTimeServer  DateTime @default(now())
+  claimTimeChain   DateTime?
+
+  user User @relation(fields: [userId], references: [id])
+  art  Art  @relation(fields: [artId], references: [id])
+
+  @@unique([userId, artId])
+}
+
+model Nft {
+  id        String   @id @default(cuid())
+  userId    String
+  artId     String
+  tokenId   String  @unique // hex string
+  txHash    String  @unique
+  chainId   Int
+  mintedAt  DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+  art  Art  @relation(fields: [artId], references: [id])
+}
+
+enum ClaimStatus {
+  pending
+  confirmed
+  failed
+}

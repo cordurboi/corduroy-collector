@@ -1,0 +1,68 @@
+{
+  "../../node_modules/.pnpm/@web3auth+ethereum-provider@8.12.4_@babel+runtime@7.28.4/node_modules/@web3auth/ethereum-provider/dist/ethereumProvider.esm.js -> @ethereumjs/common": {
+    "id": "../../node_modules/.pnpm/@web3auth+ethereum-provider@8.12.4_@babel+runtime@7.28.4/node_modules/@web3auth/ethereum-provider/dist/ethereumProvider.esm.js -> @ethereumjs/common",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_ethereumjs_common_4_4_0_node_modules_ethereumjs_common_d-2fae33.js"
+    ]
+  },
+  "../../node_modules/.pnpm/@web3auth+ethereum-provider@8.12.4_@babel+runtime@7.28.4/node_modules/@web3auth/ethereum-provider/dist/ethereumProvider.esm.js -> @ethereumjs/tx": {
+    "id": "../../node_modules/.pnpm/@web3auth+ethereum-provider@8.12.4_@babel+runtime@7.28.4/node_modules/@web3auth/ethereum-provider/dist/ethereumProvider.esm.js -> @ethereumjs/tx",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_ethereumjs_tx_5_4_0_node_modules_ethereumjs_tx_dist_esm_-9c87b4.js"
+    ]
+  },
+  "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./dutch-DA4bfNTp.js": {
+    "id": "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./dutch-DA4bfNTp.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_web3auth_ui_8_12_7__babel_runtime_7_28_4_react-dom_18_3_-f0349b.js"
+    ]
+  },
+  "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./french-C9hScp8b.js": {
+    "id": "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./french-C9hScp8b.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_web3auth_ui_8_12_7__babel_runtime_7_28_4_react-dom_18_3_-2fafb7.js"
+    ]
+  },
+  "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./german-BhRxrMye.js": {
+    "id": "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./german-BhRxrMye.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_web3auth_ui_8_12_7__babel_runtime_7_28_4_react-dom_18_3_-6eca53.js"
+    ]
+  },
+  "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./japanese-Bvuydikq.js": {
+    "id": "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./japanese-Bvuydikq.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_web3auth_ui_8_12_7__babel_runtime_7_28_4_react-dom_18_3_-c6b359.js"
+    ]
+  },
+  "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./korean-M7bd51ut.js": {
+    "id": "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./korean-M7bd51ut.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_web3auth_ui_8_12_7__babel_runtime_7_28_4_react-dom_18_3_-5ecf42.js"
+    ]
+  },
+  "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./mandarin-CYSJAgXi.js": {
+    "id": "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./mandarin-CYSJAgXi.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_web3auth_ui_8_12_7__babel_runtime_7_28_4_react-dom_18_3_-070c56.js"
+    ]
+  },
+  "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./portuguese-CZTBs7Nm.js": {
+    "id": "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./portuguese-CZTBs7Nm.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_web3auth_ui_8_12_7__babel_runtime_7_28_4_react-dom_18_3_-ffa5e7.js"
+    ]
+  },
+  "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./spanish-Bji0Db1n.js": {
+    "id": "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./spanish-Bji0Db1n.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_web3auth_ui_8_12_7__babel_runtime_7_28_4_react-dom_18_3_-402f32.js"
+    ]
+  },
+  "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./turkish-BD7WDb-q.js": {
+    "id": "../../node_modules/.pnpm/@web3auth+ui@8.12.7_@babel+runtime@7.28.4_react-dom@18.3.1_react@18.3.1__react@18.3.1_typescript@5.6.3/node_modules/@web3auth/ui/dist/index.js -> ./turkish-BD7WDb-q.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_web3auth_ui_8_12_7__babel_runtime_7_28_4_react-dom_18_3_-b932f2.js"
+    ]
+  }
+}

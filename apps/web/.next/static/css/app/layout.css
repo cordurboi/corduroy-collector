@@ -1,0 +1,52 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@14.2.9_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!../../node_modules/.pnpm/next@14.2.9_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif; font-weight: 400; line-height: 1.5; background: #166050; color: #ffffff; }
+h1, h2, h3 { font-weight: 800; text-transform: lowercase; color: #ffffff; }
+a { color: #FDB93D; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Mobile-first responsive tweaks */
+.btn-row { flex-wrap: wrap; }
+.btn-row > button { flex: 1 1 100%; }
+.wallet-address { max-width: 50vw; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; }
+.collection-list { grid-template-columns: 1fr; }
+
+/* Buttons base */
+button { font-weight: 600; color: #202D70 !important; text-transform: lowercase; font-size: 16px; padding: 10px 18px; }
+
+/* NavBar */
+.nav { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 12px 16px; border-bottom: 1px solid #174e43; position: -webkit-sticky; position: sticky; top: 0; background: #202D70; z-index: 50; }
+.nav-left { display: none; align-items: center; gap: 12px; }
+.nav-left a { font-weight: 600; }
+.nav-right { display: none; }
+.nav-right-mobile { display: flex; align-items: center; }
+.nav-links { display: none; flex-direction: column; position: absolute; top: 52px; left: 0; right: 0; background: #114b3e; padding: 8px 16px; border-bottom: 1px solid #174e43; }
+.nav-links a { padding: 10px 0; font-weight: 600; }
+.nav-links.open { display: flex; }
+.nav-wallet-mobile { display: block; }
+.hamburger { width: 36px; height: 28px; position: relative; border: none; background: transparent; padding: 0; cursor: pointer; }
+.hamburger span { display: block; height: 3px; background: #fff; margin: 6px 0; border-radius: 2px; transition: transform 200ms ease, opacity 200ms ease; }
+.hamburger.is-open span:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+.hamburger.is-open span:nth-child(2) { opacity: 0; }
+.hamburger.is-open span:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+
+/* Larger screens */
+@media (min-width: 640px) {
+  .btn-row { flex-wrap: nowrap; }
+  .btn-row > button { flex: 0 0 auto; }
+  .wallet-address { max-width: none; }
+  .collection-list { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .nav { padding: 12px 48px; }
+  .hamburger { display: none; }
+  .nav-left { display: flex; }
+  .nav-right { display: flex; }
+  /* On desktop, primary nav lives in .nav-left; hide mobile .nav-links */
+  .nav-links { position: static; display: none; flex-direction: row; gap: 16px; background: transparent; padding: 0; border: 0; }
+  .nav-wallet-mobile { display: none; }
+  .nav-right-mobile { display: none; }
+}
+
