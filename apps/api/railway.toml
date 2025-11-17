@@ -1,5 +1,5 @@
 [build]
-builder = "NIXPACKS"
+builder = "AUTO"
 buildCommand = "cd ../.. && pnpm install && pnpm build --filter=api"
 
 [deploy]
