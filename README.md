@@ -347,3 +347,11 @@ Once deployed, your custom build will:
 - `packages/relayer` – Ethers-based relayer package
 - `packages/shared` – Shared types and schemas
 
+## License
+
+This project is provided as-is for hackathon and educational purposes. Please review the repository license file (if present) for details before using in production.
+
+## Media usage notice
+
+Please note that all artwork and music used within this project is property of Corduroy Earth or the artists that created it and is not available for reuse. When forking this project in any environment that is not educational, the developer is required to generate new media assets.
+
