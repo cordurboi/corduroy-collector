@@ -24,8 +24,7 @@ Over time, tools like this can shift the culture for fans, helping them realize 
 ### 1. Testing the Live Demo (Recommended)
 
 1. **Open the demo site**  
-   Visit: `https://<your-vercel-demo-url>.vercel.app`  
-   (Replace with the actual Vercel URL once deployed.)
+   Visit: https://corduroy-collector-web.vercel.app/
 
 2. **Log in with Web3Auth (email)**  
    - Click the **Login** button in the top-right.  
@@ -38,6 +37,15 @@ Over time, tools like this can shift the culture for fans, helping them realize 
    - On the site, go to the **Collect** page.
    - Use your device camera to scan the sample artwork (QR / code / image as instructed on the page).
    - After a successful scan/claim, return to the **Collection** page to see your newly unlocked piece 
+
+4. **Verify blockchain activity**  
+   - After collecting a piece of art, you can navigate to the **Wallet Address** entry in the menu.  
+   - This would normally be hidden in a production environment, but in this demo it allows you to see what is happening on-chain.
+
+5. **Bonus Content**  
+   - The **Bonus Content** page has a counter that keeps track of how much art you have collected.
+   - After collecting **3 pieces**, you will unlock a bonus piece of content to collect.
+   - Once you unlock and collect the bonus content, you can navigate back to the **Collection** page to view and listen to it.
 
 
 ### 2. Deploying a Test Version (Using Existing Contracts)
@@ -93,11 +101,13 @@ Or deploy the API to Railway:
 - Push the repo to GitHub.
 - In Railway:
   - Create a new project from the GitHub repo.
-  - Set **Root directory** to `apps/api`.
-  - Build command: `pnpm install && pnpm build`
-  - Start command: `node dist/index.js`
+  - Ensure the **Builder** is set to **Railpacks** (or Auto) and that **Railway Config File** is left blank.
+  - Keep the **Root directory** as the **repo root** (do not change it to `apps/api`).
+  - Set **Build command** to: `pnpm --filter api build`
+  - Set **Start command** to: `pnpm --filter api start`
   - Add the same `.env` variables in the **Variables** tab.
 - After deployment, note the public API URL, e.g. `https://your-api.up.railway.app`.
+- If you deploy a separate frontend (e.g. on Vercel), make sure your API's CORS configuration allows your frontend domain (for example, `https://*.vercel.app`).
 
 #### 2.4. Configure Web Environment (Client-side)
 
@@ -120,7 +130,10 @@ pnpm dev
 To deploy the web to Vercel:
 
 - Import the GitHub repo in Vercel.
-- Set **Framework** to Next.js.
+- Set **Framework** to Next.js and **Root Directory** to `apps/web`.
+- Override the defaults so that:
+  - **Install Command** is `pnpm install --frozen-lockfile`
+  - **Build Command** is `pnpm run build`
 - Set environment variables for the project:
   - `NEXT_PUBLIC_API_URL`
   - `NEXT_PUBLIC_WEB3AUTH_CLIENT_ID`
