@@ -1,8 +1,13 @@
 {
   "$schema": "https://railway.com/railway.schema.json",
   "build": {
+<<<<<<< HEAD
     "builder": "AUTO",
     "buildCommand": "pnpm install && pnpm run build --filter=api"
+=======
+    "builder": "NIXPACKS",
+    "buildCommand": "pnpm install && pnpm --filter api build"
+>>>>>>> 1c71cee (Railway: build only api workspace)
   },
   "deploy": {
     "startCommand": "cd apps/api && node dist/index.js",
