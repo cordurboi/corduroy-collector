@@ -41,7 +41,7 @@ Over time, tools like this can shift the culture for fans, helping them realize 
 
 3. **Claim an artwork using the sample poster**  
    - Open the shared folder with sample art:  
-     `https://drive.google.com/drive/folders/10VnQWHqKoQC00s0KHoDMLnuTxG24AwGj?usp=drive_link`
+     [https://drive.google.com/drive/folders/10VnQWHqKoQC00s0KHoDMLnuTxG24AwGj?usp=drive_link](url)
    - On the site, go to the **Collect** page.
    - Use your device camera to scan the sample artwork (QR / code / image as instructed on the page).
    - After a successful scan/claim, return to the **Collection** page to see your newly unlocked piece 
